@@ -7,8 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <GLKit/GLKit.h>
+@class AGLKVertexAttribArrayBuffer;
+@interface ViewController : GLKViewController
 
-@interface ViewController : UIViewController
+/**
+ *  <#type#>
+ */
+@property (nonatomic , strong)GLKBaseEffect *mBaseEffect;
+/**
+ *  <#type#>
+ */
+@property (nonatomic , strong)AGLKVertexAttribArrayBuffer *vertexBuffer;
 
 
 @end
